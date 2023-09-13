@@ -1,13 +1,13 @@
 package animales;
 
 public interface IAnimal {
-    public String getRuido();
+    String getRuido();
 
-    public String getComida();
+    String getComida();
 
-    public void setComida(String comida);
+    void setComida(String comida);
 
-    public String getNombre();
+    String getNombre();
 
-    public String getTipo();
+    String getTipo();
 }

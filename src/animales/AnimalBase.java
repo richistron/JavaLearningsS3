@@ -1,9 +1,8 @@
 package animales;
 
 public class AnimalBase implements IAnimal {
-    private String especie;
     protected String comida;
-    private String nombre;
+    private final String nombre;
     protected String tipo;
     protected String ruido;
 
